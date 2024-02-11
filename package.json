@@ -1,0 +1,24 @@
+{
+	"name": "nodejs-unit-test",
+	"version": "1.0.0",
+	"description": "belajar-nodejs-unit-test",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "jest"
+	},
+	"jest": {
+		"verbose": true,
+		"transform": {
+			"^.+\\.[t|j]sx?$": "babel-jest"
+		}
+	},
+	"author": "Made Aditya Putra",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/plugin-transform-runtime": "^7.23.7",
+		"@babel/preset-env": "^7.23.6",
+		"babel-jest": "^29.7.0",
+		"jest": "^29.7.0"
+	}
+}
